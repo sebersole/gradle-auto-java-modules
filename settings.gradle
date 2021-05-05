@@ -1,0 +1,4 @@
+rootProject.name = "gradle-auto-java-modules"
+include("project-a")
+include 'project-b'
+

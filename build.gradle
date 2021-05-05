@@ -1,0 +1,19 @@
+plugins {
+    id 'java-library'
+}
+
+allprojects {
+    group = 'org.hibernate.playground.gradle.modules'
+    version = '1.0.0-SNAPSHOT'
+
+    repositories {
+        mavenCentral()
+    }
+}
+
+subprojects {
+    java {
+        sourceCompatibility = JavaVersion.VERSION_1_8
+        targetCompatibility = JavaVersion.VERSION_1_8
+    }
+}
